@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* variables */
+:root {
+    --main-color: #0791c4;
+    --secondary-color: #269baa;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* header section */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--main-color);
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+header nav a {
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    color: #ff7e5f;
+}
+
+
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.cta {
+    background-color: #ff7e5f;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.cta:hover, .hero-btn:hover {
+    background-color: #ff6a4d;
+}
+  
+
+/* hero section  */
+.hero {
+    background: url('hero-background.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero-btn {
+    background-color: #ff7e5f;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* feature section */
+
+#features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background:var(--secondary-color)
+}
+
+.feature {
+    width: 30%;
+    text-align: center;
+}
+
+.feature h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* footer section */
+
+footer {
+    background-color: var(--main-color);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* media queries */
+/* 
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav {
+        margin-top: 20px;
+    }
+
+    header nav a {
+        margin: 0 10px;
+    }
+
+    .hero h1 {
+        font-size: 2em;
+    }
+
+    #features {
+        flex-direction: column;
+    }
+
+    .feature {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+} */
+
+/* media queries */
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    header, #features {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .feature {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  
