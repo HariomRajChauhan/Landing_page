@@ -7,8 +7,8 @@
 
 /* variables */
 :root {
-    --main-color: #0791c4;
-    --secondary-color: #269baa;
+    --main-color: #095069;
+    --secondary-color: #094f69e1;
 }
 
 html {
@@ -17,7 +17,7 @@ html {
 
 
 body {
-    font-family: Arial, sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
     line-height: 1.6;
 }
 
@@ -68,8 +68,8 @@ header nav a:hover {
 
 /* hero section  */
 .hero {
-    background: url('hero-background.jpg') no-repeat center center/cover;
-    color: #fff;
+    background: url('https://img.freepik.com/free-photo/abstract-blue-geometric-shapes-background_24972-1841.jpg?t=st=1730723654~exp=1730727254~hmac=1c7caebdbc8f19b629f66575cf7b24120b3d646436aaf3fed3e80078ad98406e&w=740') no-repeat center center/cover;
+    color: #095069;
     padding: 100px 20px;
     text-align: center;
 }
@@ -99,10 +99,11 @@ header nav a:hover {
 .feature {
     width: 30%;
     text-align: center;
+    color: #fff;
 }
 
 .feature h3 {
-    color: #333;
+    color: #ff7e5f;
     margin-bottom: 10px;
 }
 
@@ -110,7 +111,7 @@ header nav a:hover {
 
 footer {
     background-color: var(--main-color);
-    color: #fff;
+    color: #ff7e5f;
     text-align: center;
     padding: 20px;
 }
